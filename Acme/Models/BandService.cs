@@ -10,9 +10,9 @@
             new Band{ ID = id++, Name = "Iron Maiden", Description = "Väldigt coolt rock band" }
        };
 
-        public Band GetBandByID(int id)
+        public Band GetBandByID(int bandId)
         {
-            return bandList[id];
+            return bandList[bandId];
         }
 
         public Band[] GetAllBands()
