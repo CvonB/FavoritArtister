@@ -7,6 +7,7 @@
         public string Description { get; set; }
         public List<Album> Albums { get; set; } = new List<Album>();
         public string Picture { get; set; }
+        public string Song { get; set; }
     }
 
 }

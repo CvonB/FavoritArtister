@@ -7,7 +7,7 @@
         {
             new Band{ ID = id++, Name = "Pink Floyd", Description = "Mindre coolt rock band" },
             new Band{ ID = id++, Name = "Rammstein", Description = "Rätt så coolt rock band" },
-            new Band{ ID = id++, Name = "Iron Maiden", Description = "Väldigt coolt rock band",Picture = "iron01.jpg",
+            new Band{ ID = id++, Name = "Iron Maiden", Description = "Väldigt coolt rock band", Song="d0tCTsnYDMU",Picture = "iron01.jpg",
                 Albums = new List<Album>
                 {
                     new Album(1980,"Iron Maiden"),
