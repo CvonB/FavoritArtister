@@ -1,0 +1,21 @@
+﻿@using FavoritArtister.Models
+@model Band
+<html>
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+<body>
+    <h1>@Model.Name</h1>
+    <p>
+        @Model.Description
+    </p>
+    <img src=@Model.Picture/>
+    <ul>
+        @foreach (var item in Model.Albums)
+        {
+            <li> @item.Name - @item.Year </li>
+        }
+    </ul>
+</body>
+</html>
