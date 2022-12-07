@@ -10,7 +10,7 @@
     <p>
         @Model.Description
     </p>
-    <img src=@Model.Picture/>
+    <img width="500" src="/images/@Url.Content(Model.Picture)"/>
     <ul>
         @foreach (var item in Model.Albums)
         {

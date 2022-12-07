@@ -7,7 +7,7 @@
         {
             new Band{ ID = id++, Name = "Pink Floyd", Description = "Mindre coolt rock band" },
             new Band{ ID = id++, Name = "Rammstein", Description = "Rätt så coolt rock band" },
-            new Band{ ID = id++, Name = "Iron Maiden", Description = "Väldigt coolt rock band",Picture = "/images/iron01.jpg",
+            new Band{ ID = id++, Name = "Iron Maiden", Description = "Väldigt coolt rock band",Picture = "iron01.jpg",
                 Albums = new List<Album>
                 {
                     new Album(1980,"Iron Maiden"),
@@ -28,7 +28,6 @@
                     new Album(2015,"The Book of Souls   Parlophone"),
                     new Album(2021,"Senjutsu")
                 }
-                
     }
        };
 
