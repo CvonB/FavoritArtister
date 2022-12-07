@@ -17,5 +17,12 @@ namespace FavoritArtister.Controllers
             var model = service.GetAllBands();
             return View(model);
         }
+
+        [HttpGet("details/{BandId}")]
+        public IActionResult bandPage(int BandId)
+        {
+            var model = service.GetBandByID(BandId);
+            return Content(model.Description);
+        }
     }
 }

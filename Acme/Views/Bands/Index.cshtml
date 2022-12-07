@@ -13,7 +13,7 @@
     <ul>
         @foreach (var item in Model)
         {
-            <li> @item.Name @item.ID, @item.Description</li>
+            <li><a href="/details/${@item.ID}"> @item.Name </a> </li>
         }
     </ul>
 </body>

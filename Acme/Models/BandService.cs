@@ -2,7 +2,7 @@
 {
     public class BandService
     {
-        static int id = 1;
+        static int id = 0;
         private List<Band> bandList = new List<Band>()
         {
             new Band{ ID = id++, Name = "Pink Floyd", Description = "Mindre coolt rock band" },
