@@ -1,0 +1,20 @@
+﻿@using FavoritArtister.Models
+@model Band[]
+<html>
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+<body>
+    <h1>Products</h1>
+    <p>
+
+    </p>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li> @item.Name @item.ID, @item.Description</li>
+        }
+    </ul>
+</body>
+</html>
